@@ -1,108 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="Estilos/Style.css">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="Estilos/Style.css">
+  <title>Home</title>
 </head>
+
 <body>
-  
-     
-    <nav class="navbar my-3 row">
-        <div class="container-fluid">
-            <img src="Imagenes/Dell_Technologies_logo.svg.png"  width="200" height="auto"  alt="Logo" >
-            <form class="d-flex" role="search">
-              <div class="input-group">
-                  <input id="buscador" class="form-control me-2" type="search" placeholder="Buscar en Dell" aria-label="Buscar en Dell">
-                  <div class="input-group-append">
-                      <button id="botonBuscador" class="btn btn-outline-success" type="submit">
-                          <i class="fa fa-search"></i> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                          </svg>
-                      </button>
-                  </div>
-              </div>
-          </form>
-        </div>
-      </nav>
-    
-    <nav class="navbar navbar-expand-lg  my-1 mb-2 ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" >Inicio <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-buildings" viewBox="0 0 16 16">
-            <path d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z"/>
-            <path d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z"/>
-          </svg> </a> 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">APEX</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Ver todo APEX</a></li>
-                           <li class="dropdown-submenu">
-                            <a class="dropdown-item dropdown-toggle" href="#">Computacion y HCI</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Subopción 1</a></li>
-                                <li><a class="dropdown-item" href="#">Subopción 2</a></li>
-                                
-                            </ul>
-                      <li><a class="dropdown-item" href="#">Almacenamiento</a></li>
-                      <li><a class="dropdown-item" href="#">Ciberseguridad y porteccion de datos</a></li>
-                      <li><a class="dropdown-item" href="#">Plataformas de cloud</a></li>
-                      <li><a class="dropdown-item" href="#">Informatica de alto rendimiento APEX</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Infraestructura Informatica
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Productos</a></li>
-                      <li><a class="dropdown-item" href="#">Carga de Trabajo</a></li>
-                      <li><a class="dropdown-item" href="#">Sector</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Equipos y Accesorios
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Protatiles</a></li>
-                      <li><a class="dropdown-item" href="#">Monitores</a></li>
-                      <li><a class="dropdown-item" href="#">Gaming</a></li>
-                    </ul>
-                  </li>
-                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Ofertas
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Ver todas las ofertas</a></li>
-                  <li><a class="dropdown-item" href="#">Ofertas portatiles</a></li>
-                  <li><a class="dropdown-item" href="#">Ofertas dell</a></li>
-                </ul>
-              </li>
-            </ul>
+
+
+  <nav class="navbar my-3 row">
+    <div class="container-fluid">
+      <img src="Imagenes/Dell_Technologies_logo.svg.png" width="200" height="auto" alt="Logo">
+      <form class="d-flex" role="search">
+        <div class="input-group">
+          <input id="buscador" class="form-control me-2" type="search" placeholder="Buscar en Dell"
+            aria-label="Buscar en Dell">
+          <div class="input-group-append">
+            <button id="botonBuscador" class="btn btn-outline-success" type="submit">
+              <i class="fa fa-search"></i> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+              </svg>
+            </button>
           </div>
         </div>
-      </nav>
+      </form>
+    </div>
+  </nav>
 
-      <div class=" texto container-fluid bg-light  ">
-        <div class="row"></div>
-        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-10"></div>
-        <p> Consigue los PC más populares y mucho más a precios increibles. <a href="https://www.dell.com/es-es/shop/deals">Ver ofertas</a>  
-          | ¿Necesitas ayuda con tu compra? Chatea con un experto en ventas de L-V de 9 a 18.</p>
+  <nav class="navbar navbar-expand-lg  my-1 mb-2 ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Inicio <i class="bi bi-pc-display-horizontal"></i> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">APEX</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ver todo APEX</a></li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Computacion y HCI</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Subopción 1</a></li>
+                  <li><a class="dropdown-item" href="#">Subopción 2</a></li>
+
+                </ul>
+              <li><a class="dropdown-item" href="#">Almacenamiento</a></li>
+              <li><a class="dropdown-item" href="#">Ciberseguridad y porteccion de datos</a></li>
+              <li><a class="dropdown-item" href="#">Plataformas de cloud</a></li>
+              <li><a class="dropdown-item" href="#">Informatica de alto rendimiento APEX</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Infraestructura Informatica
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Productos</a></li>
+              <li><a class="dropdown-item" href="#">Carga de Trabajo</a></li>
+              <li><a class="dropdown-item" href="#">Sector</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Equipos y Accesorios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Protatiles</a></li>
+              <li><a class="dropdown-item" href="#">Monitores</a></li>
+              <li><a class="dropdown-item" href="#">Gaming</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ofertas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ver todas las ofertas</a></li>
+              <li><a class="dropdown-item" href="#">Ofertas portatiles</a></li>
+              <li><a class="dropdown-item" href="#">Ofertas dell</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-      
+    </div>
+  </nav>
+
+  <div class=" texto container-fluid bg-light  ">
+    <div class="row"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-2" >
+          <i class="icono bi bi-laptop"></i>
+          <p>portatiles </p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-2">
+          <i class="icono bi bi-pc-display "></i>
+          <p>sobre mesa </p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-2">
+          <i class="icono bi bi-display"></i>
+          <p>Monitores </p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-2">
+          <i class="icono bi bi-headphones"></i>
+          <p>Accesorios </p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-2">
+          <i class="icono bi bi-pc"></i>
+          <p>Estacion de Trabajo </p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-2">
+          <i class="icono bi bi-hdd-stack-fill"></i>
+          <p>Servidore y Almacenamiento </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
 
 </body>
+
 </html>
 
 </body>
+
 </html>
