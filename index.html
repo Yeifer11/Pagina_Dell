@@ -10,81 +10,83 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
   <link rel="stylesheet" href="Estilos/Style.css">
   <title>Home</title>
+  <link rel="icon" href="Imagenes/dell.png" type="image/x-ico" />
 </head>
 
 <body>
 
 
-  <nav class="navbar my-3 row">
+  <nav class=" navbar  row" id="nav">
     <div class="container-fluid">
-      <img src="Imagenes/Dell_Technologies_logo.svg.png" width="200" height="auto" alt="Logo">
-      <form class="d-flex" role="search">
-        <div class="input-group">
-          <input id="buscador" class="form-control me-2" type="search" placeholder="Buscar en Dell"
+
+      <div class="logo col-md-auto">
+        <img src="Imagenes/Dell_Technologies_logo.svg.png" width="180" height="auto" alt="Logo">
+      </div>
+      <div class="buscador col-md ">
+        <form class="d-flex align-items-center" role="search">
+          <input id="buscador" class="form-control form-control-sm me-2" type="search" placeholder="Buscar en Dell"
             aria-label="Buscar en Dell">
-          <div class="input-group-append">
-            <button id="botonBuscador" class="btn btn-outline-success" type="submit">
-              <i class="fa fa-search"></i> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path
-                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-              </svg>
-            </button>
-          </div>
-        </div>
-      </form>
+          <button id="botonBuscador" class="btn btn-outline-success btn-sm" type="submit">
+            <i class="fa fa-search"></i> <i class="bi bi-search"></i>
+            </svg>
+          </button>
+        </form>
+      </div>
+      <div class="carrito ">
+        <button class="btn " role="button" type="button" aria-expanded="false">
+          <a class="nav-link" href="contacto.html" role="button" aria-expanded="false"><i class="bi bi-headset"></i>
+            Contáctenos</i> </a>
+        </button>
+
+      </div>
+      <div class="carrito dropdown">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-globe2"></i> ES/ES</i>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="carrito dropdown">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-cart3"></i> Carrito</i>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-  <nav class="navbar navbar-expand-lg  my-1 mb-2 ">
+  <nav class="navbar navbar-expand-lg ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Inicio <i class="bi bi-pc-display-horizontal"></i> </a>
+      <a class="navbar-brand" href="index.html">Inicio <i class="bi bi-pc-display-horizontal"></i> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">APEX</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Ver todo APEX</a></li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Computacion y HCI</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Subopción 1</a></li>
-                  <li><a class="dropdown-item" href="#">Subopción 2</a></li>
 
-                </ul>
-              <li><a class="dropdown-item" href="#">Almacenamiento</a></li>
-              <li><a class="dropdown-item" href="#">Ciberseguridad y porteccion de datos</a></li>
-              <li><a class="dropdown-item" href="#">Plataformas de cloud</a></li>
-              <li><a class="dropdown-item" href="#">Informatica de alto rendimiento APEX</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Infraestructura Informatica
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Productos</a></li>
-              <li><a class="dropdown-item" href="#">Carga de Trabajo</a></li>
-              <li><a class="dropdown-item" href="#">Sector</a></li>
-            </ul>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Equipos y Accesorios
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Protatiles</a></li>
-              <li><a class="dropdown-item" href="#">Monitores</a></li>
-              <li><a class="dropdown-item" href="#">Gaming</a></li>
+              <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+              <li><a class="dropdown-item" href="#">Accesorios</a></li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html" role="button" aria-expanded="false">
+              Contacto
+            </a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -92,7 +94,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Ver todas las ofertas</a></li>
-              <li><a class="dropdown-item" href="#">Ofertas portatiles</a></li>
+              <li><a class="dropdown-item" href="#">Ofertas portátiles</a></li>
               <li><a class="dropdown-item" href="#">Ofertas dell</a></li>
             </ul>
           </li>
@@ -102,35 +104,190 @@
   </nav>
 
   <div class=" texto container-fluid bg-light  ">
-    <div class="row"></div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-2" >
-          <i class="icono bi bi-laptop"></i>
-          <p>portatiles </p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-2">
-          <i class="icono bi bi-pc-display "></i>
-          <p>sobre mesa </p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-2">
-          <i class="icono bi bi-display"></i>
-          <p>Monitores </p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-2">
-          <i class="icono bi bi-headphones"></i>
-          <p>Accesorios </p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-2">
-          <i class="icono bi bi-pc"></i>
-          <p>Estacion de Trabajo </p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-2">
-          <i class="icono bi bi-hdd-stack-fill"></i>
-          <p>Servidore y Almacenamiento </p>
+    <div class="row">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-2">
+            <i class="icono bi bi-laptop"></i>
+            <p>Portátiles </p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-2">
+            <i class="icono bi bi-pc-display "></i>
+            <p>Sobre mesa </p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-2">
+            <i class="icono bi bi-display"></i>
+            <p>Monitores </p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-2">
+            <i class="icono bi bi-headphones"></i>
+            <p>Accesorios </p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-2">
+            <i class="icono bi bi-pc"></i>
+            <p>Estación de Trabajo </p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-2">
+            <i class="icono bi bi-hdd-stack-fill"></i>
+            <p>Servidores y Almacenamiento </p>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide mb-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Imagenes/program1.png" class="d-block w-100" alt="Pc Dell 1" />
+      </div>
+      <div class="carousel-item">
+        <img src="Imagenes/placa-circuito.jpg" class="d-block w-100" alt="Pc Dell 2" />
+      </div>
+      <div class="carousel-item">
+        <img src="Imagenes/program2.jpg" class="d-block w-100" />
+      </div>
+    </div>
+    <!-- Sección de Productos Destacados -->
+    <section class="featured-products my-2 mx-2">
+      <div class="container">
+        <div class="alert alert-secondary" role="alert">
+          <h2 class="text-center">Productos Destacados</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100" id="card-body">
+              <img src="Imagenes/diademas2.jpg" class="card-img-top img-fluid" />
+              <div class="card-body">
+                <p class="card-text">
+                <h6> Para la primera card (Xiaomi 1):</h6>
+                "Experimenta el lujo en tus manos con el nuevo Xiaomi 1. Con una pantalla 4K y un rendimiento
+                excepcional, este teléfono redefine tus expectativas."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="Imagenes/diademas.jpg" class="card-img-top img-fluid" />
+              <div class="card-body">
+                <p class="card-text">
+                <h6>Para la segunda card (Xiaomi 2):</h6>
+                "Descubre la calidad y el valor con el Xiaomi 2. Con todas las funciones del Xiaomi 1 a un precio más
+                accesible, es la opción perfecta para aquellos que buscan un gran rendimiento sin gastar demasiado."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="Imagenes/diademas3.jpg" class="card-img-top img-fluid" />
+              <div class="card-body">
+                <p class="card-text">
+                <h6>Para la tercera card (Xiaomi 3):</h6>
+                "Eleva tu experiencia móvil con el Xiaomi 3. Equipado con lo último en tecnología y diseño elegante,
+                este teléfono es un verdadero símbolo de estatus."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Aquí se muestran los productos destacados -->
+          <div class="col-md-4 mb-3 ">
+            <div class="card h-100">
+              <img src="Imagenes/cel.jpg" class="card-img-top img-fluid" />
+              <div class="card-body">
+                <p class="card-text">
+                <h6>Para la cuarta card (PC GAMER 1):</h6>
+                "Sumérgete en el mundo del gaming de alta gama con nuestra PC Gamer 1. Equipada con procesadores
+                potentes y tarjetas gráficas de última generación, esta máquina te llevará a la victoria con estilo."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <img src="Imagenes/cel2.jpg" class="card-img-top img-fluid" />
+              <div class="card-body">
+                <p class="card-text">
+                <h6>Para la quinta card (PC GAMER 2):</h6>
+                "Experimenta el rendimiento extremo con nuestra PC Gamer 2. Diseñada para jugadores exigentes, esta
+                máquina ofrece velocidad y potencia sin compromisos."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <img src="Imagenes/cel3.jpg" class="card-img-top img-fluid" alt="PC GAMER 3" />
+              <div class="card-body">
+                <p class="card-text">
+                <h6>Para la sexta card (PC GAMER 3):</h6>
+                "Domina cualquier juego con nuestra PC Gamer 3. Con un diseño elegante y componentes de alto
+                rendimiento, esta máquina está lista para llevarte a nuevas alturas en el mundo del gaming."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Aquí se muestran los productos destacados -->
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <img src="Imagenes/pc.jpg" class="card-img-top img-fluid" alt="TABLET 1" />
+              <div class="card-body">
+                <p class="card-text">
+                <h6>Para la séptima card (TABLET 1):</h6>
+                "Descubre la versatilidad en movimiento con nuestra Tablet 1. Con una pantalla de alta resolución y un
+                diseño ligero, esta tablet es perfecta para el entretenimiento en cualquier lugar."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <img src="Imagenes/pc2.jpg" class="card-img-top img-fluid" alt="TABLET 2" />
+              <div class="card-body">
+                <p class="card-text">
+                <h6>Para la octava card (TABLET 2):</h6>
+                "Haz más con menos esfuerzo con nuestra Tablet 2. Diseñada para la productividad y la comodidad, esta
+                tablet te permite trabajar y jugar con facilidad en cualquier momento y lugar."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <img src="Imagenes/pc3.jpg" class="card-img-top img-fluid" alt="TABLET 3" />
+              <div class="card-body">
+                <p class="card-text">
+                <h6>Para la novena card (TABLET 3):</h6>
+                "Explora nuevos horizontes con nuestra Tablet 3. Con características innovadoras y un diseño elegante,
+                esta tablet es tu compañera perfecta para el aprendizaje y la creatividad."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Enlaces Útiles</h5>
+            <ul class="footer-links">
+              <li><a href="#"><i class="fas fa-home footer-icons"></i>Carrito</a></li>
+              <li><a href="#"><i class="fas fa-tags footer-icons"></i>Página principal</a></li>
+              <li><a href="#"><i class="fas fa-envelope footer-icons"></i>Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h5>Contacto</h5>
+            <p><i class="fas fa-map-marker-alt footer-icons"></i>Calle 42 N 82-97</p>
+            <p><i class="fas fa-phone footer-icons"></i>Teléfono: +1234567890</p>
+            <p><i class="fas fa-envelope footer-icons"></i>Email: info@example.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 
 

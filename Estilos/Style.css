@@ -1,12 +1,38 @@
 #buscador{
-    margin-right: 1650PX;
-    width: 600px;
+    width: 300px;
     height: auto;
+    margin-left: 40px;
 }
 #botonBuscador{
-    margin-right: 1650PX;
+    
     height: auto;
 }
+.card-img-top {
+    height: 300px; width: 450; 
+    object-fit: cover; 
+  }
+
+body{
+    background-color: #333;
+}
+nav{
+background-color: white;
+}
+
+.card-body{
+    background-color: rgb(165, 163, 163);
+}
+.formulario{
+    background-color: white;
+    width: 700px;
+    
+}
+
+  #carouselExampleSlidesOnly .carousel-item img {
+    height: 400px; 
+    object-fit: cover;
+  }
+  
 #texto{
     text-align: center;
 }
@@ -22,3 +48,18 @@
 .icono{
     font-size: 30px;
 }
+
+.carrito{
+    
+    font-size: 20px;
+
+}
+.logo{
+    margin-left: 30px;
+}
+footer {
+    background-color: white;
+    color: #333;
+    padding: 50px 0;
+    margin-top: 50px; 
+  }

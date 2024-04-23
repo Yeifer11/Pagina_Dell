@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Estilos/Style.css">
+    <title>Productos</title>
+    <link rel="icon" href="Imagenes/dell.png" type="image/x-ico" />
+</head>
+<body>
+    <nav class=" navbar  row" id="nav">
+        <div class="container-fluid">
+    
+          <div class="logo col-md-auto">
+            <img src="Imagenes/Dell_Technologies_logo.svg.png" width="180" height="auto" alt="Logo">
+          </div>
+          <div class="buscador col-md ">
+            <form class="d-flex align-items-center" role="search">
+              <input id="buscador" class="form-control form-control-sm me-2" type="search" placeholder="Buscar en Dell"
+                aria-label="Buscar en Dell">
+              <button id="botonBuscador" class="btn btn-outline-success btn-sm" type="submit">
+                <i class="fa fa-search"></i> <i class="bi bi-search"></i>
+                </svg>
+              </button>
+            </form>
+          </div>
+          <div class="carrito dropdown"> 
+            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-headset"></i> Contáctenos</i>         
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <div class="carrito dropdown"> 
+            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-globe2"></i> ES/ES</i>         
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <div class="carrito dropdown"> 
+            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-cart3"></i> Carrito</i>         
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio <i class="bi bi-pc-display-horizontal"></i> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Equipos y Accesorios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html" role="button"  aria-expanded="false">
+                  Contacto
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ofertas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ver todas las ofertas</a></li>
+                  <li><a class="dropdown-item" href="#">Ofertas portátiles</a></li>
+                  <li><a class="dropdown-item" href="#">Ofertas dell</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <div class=" texto container-fluid bg-light  ">
+        <div class="row"></div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-2">
+              <i class="icono bi bi-laptop"></i>
+              <p>Portátiles </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-2">
+              <i class="icono bi bi-pc-display "></i>
+              <p>Sobre mesa </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-2">
+              <i class="icono bi bi-display"></i>
+              <p>Monitores </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-2">
+              <i class="icono bi bi-headphones"></i>
+              <p>Accesorios </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-2">
+              <i class="icono bi bi-pc"></i>
+              <p>Estación de Trabajo </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-2">
+              <i class="icono bi bi-hdd-stack-fill"></i>
+              <p>Servidores y Almacenamiento </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Sección de Productos -->
+    <section class="featured-products my-2 mx-2">
+        <div class="container">
+          <div class="alert alert-secondary" role="alert">
+            <h2 class="text-center">Disponibles</h2>
+          </div>
+    
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card h-100" id="card-body">
+                <img
+                  src="Imagenes/diademas2.jpg"
+                  class="card-img-top img-fluid"
+                  
+                />
+                <div class="card-body">
+                  <p class="card-text"><h6> Para la primera card (Xiaomi 1):</h6>
+                      "Experimenta el lujo en tus manos con el nuevo Xiaomi 1. Con una pantalla 4K y un rendimiento excepcional, este teléfono redefine tus expectativas."</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img
+                  src="Imagenes/diademas.jpg"
+                  class="card-img-top img-fluid"
+                  
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <h6>Para la segunda card (Xiaomi 2):</h6>
+                      "Descubre la calidad y el valor con el Xiaomi 2. Con todas las funciones del Xiaomi 1 a un precio más accesible, es la opción perfecta para aquellos que buscan un gran rendimiento sin gastar demasiado."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img
+                  src="Imagenes/diademas3.jpg"
+                  class="card-img-top img-fluid"
+                  
+                />
+                <div class="card-body">
+                  <p class="card-text"><h6>Para la tercera card (Xiaomi 3):</h6>
+                      "Eleva tu experiencia móvil con el Xiaomi 3. Equipado con lo último en tecnología y diseño elegante, este teléfono es un verdadero símbolo de estatus."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Aquí se muestran los productos destacados -->
+            <div class="col-md-4 mb-3 ">
+              <div class="card h-100">
+                <img
+                  src="Imagenes/cel.jpg"
+                  class="card-img-top img-fluid"
+                  
+                />
+                <div class="card-body">
+                  <p class="card-text"><h6>Para la cuarta card (PC GAMER 1):</h6>
+                      "Sumérgete en el mundo del gaming de alta gama con nuestra PC Gamer 1. Equipada con procesadores potentes y tarjetas gráficas de última generación, esta máquina te llevará a la victoria con estilo."</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card h-100">
+                <img
+                  src="Imagenes/cel2.jpg"
+                  class="card-img-top img-fluid"
+                  
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <h6>Para la quinta card (PC GAMER 2):</h6>
+                      "Experimenta el rendimiento extremo con nuestra PC Gamer 2. Diseñada para jugadores exigentes, esta máquina ofrece velocidad y potencia sin compromisos."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card h-100">
+                <img
+                  src="Imagenes/cel3.jpg"
+                  class="card-img-top img-fluid"
+                  alt="PC GAMER 3"
+                />
+                <div class="card-body">
+                  <p class="card-text"><h6>Para la sexta card (PC GAMER 3):</h6>
+                      "Domina cualquier juego con nuestra PC Gamer 3. Con un diseño elegante y componentes de alto rendimiento, esta máquina está lista para llevarte a nuevas alturas en el mundo del gaming."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Aquí se muestran los productos destacados -->
+            <div class="col-md-4 mb-3">
+              <div class="card h-100">
+                <img
+                  src="Imagenes/pc.jpg"
+                  class="card-img-top img-fluid"
+                  alt="TABLET 1"
+                />
+                <div class="card-body">
+                  <p class="card-text"><h6>Para la séptima card (TABLET 1):</h6>
+                      "Descubre la versatilidad en movimiento con nuestra Tablet 1. Con una pantalla de alta resolución y un diseño ligero, esta tablet es perfecta para el entretenimiento en cualquier lugar."</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card h-100">
+                <img
+                  src="Imagenes/pc2.jpg"
+                  class="card-img-top img-fluid"
+                  alt="TABLET 2"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <h6>Para la octava card (TABLET 2):</h6>
+                      "Haz más con menos esfuerzo con nuestra Tablet 2. Diseñada para la productividad y la comodidad, esta tablet te permite trabajar y jugar con facilidad en cualquier momento y lugar."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card h-100">
+                <img
+                  src="Imagenes/pc3.jpg"
+                  class="card-img-top img-fluid"
+                  alt="TABLET 3"
+                />
+                <div class="card-body">
+                  <p class="card-text"><h6>Para la novena card (TABLET 3):</h6>
+                      "Explora nuevos horizontes con nuestra Tablet 3. Con características innovadoras y un diseño elegante, esta tablet es tu compañera perfecta para el aprendizaje y la creatividad."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Enlaces Útiles</h5>
+              <ul class="footer-links">
+                <li><a href="#"><i class="fas fa-home footer-icons"></i>Carrito</a></li>
+                <li><a href="#"><i class="fas fa-tags footer-icons"></i>Página principal</a></li>
+                <li><a href="#"><i class="fas fa-envelope footer-icons"></i>Contacto</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h5>Contacto</h5>
+              <p><i class="fas fa-map-marker-alt footer-icons"></i>Calle 42 N 82-97</p>
+              <p><i class="fas fa-phone footer-icons"></i>Teléfono: +1234567890</p>
+              <p><i class="fas fa-envelope footer-icons"></i>Email: info@example.com</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
